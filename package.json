@@ -1,9 +1,18 @@
 {
   "name": "rectangular",
-  "main": "./src/main.ts",
   "version": "1.0.0",
   "private": true,
+  "main": "./src/main.ts",
+  "scripts": {
+    "test": "jest",
+    "posttest": "posttest",
+    "start": "ng start",
+    "lint": "eslint . --fix",
+    "postinstall": "postinstall",
+    "serve": "ng serve"
+  },
   "dependencies": {
+    "tslib": "^2.3.0",
     "@angular/animations": "~13.2.0",
     "@angular/common": "~13.2.0",
     "@angular/compiler": "~13.2.0",
@@ -19,6 +28,15 @@
     "zone.js": "~0.11.5"
   },
   "devDependencies": {
+    "@angular/cli": "~13.3.3",
+    "@types/jasmine": "~3.10.0",
+    "@types/node": "^12.11.1",
+    "jasmine-core": "~4.0.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.1.0",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "~1.7.0",
     "@angular-devkit/build-angular": "~13.2.0",
     "@angular/compiler-cli": "~13.2.0",
     "@nativescript/types": "~8.2.0",
