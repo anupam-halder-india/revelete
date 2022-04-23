@@ -1,5 +1,4 @@
 # NativeScript
-hooks/
 node_modules/
 platforms/
 
@@ -19,10 +18,3 @@ yarn-error.log*
 .project
 tmp/
 typings/
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
