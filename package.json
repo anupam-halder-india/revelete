@@ -4,7 +4,7 @@
   "private": true,
   "main": "./src/main.ts",
   "scripts": {
-    "test": "jest",
+    "test": "ng test",
     "posttest": "posttest",
     "start": "ng start",
     "lint": "eslint . --fix",
